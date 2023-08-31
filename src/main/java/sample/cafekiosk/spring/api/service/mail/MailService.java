@@ -25,6 +25,12 @@ public class MailService {
                     .subject(subject)
                     .content(content)
                     .build());
+
+            //Spy 테스트(실제 동작)
+            mailSendClient.a();
+            mailSendClient.b();
+            mailSendClient.c();
+
             return true;
         }
 
