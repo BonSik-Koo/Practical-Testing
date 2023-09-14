@@ -55,6 +55,11 @@ class OrderServiceTest {
         orderProductRepository.deleteAllInBatch();
         productRepository.deleteAllInBatch();
         orderRepository.deleteAllInBatch();
+        
+        // orderProductRepository.deleteAll();
+        // orderRepository.deleteAll();
+        // productRepository.deleteAll();
+        
         stockRepository.deleteAllInBatch();
     }
 
